@@ -7,10 +7,22 @@ function getElement(id) {
   return document.getElementById(id);
 }
 
+function getRandomAnimals(){
+  return animals [Math.floor(Math.random(animals.lenght-1)*10)]
+}
+function main (){
+  animal = getRandomAnimals();
+  getElement("flag").src = animal.img;
+  getElement("option1label").src = animal.name;
+  getElement("option2label").src = animal.name;
+  getElement("option3label").src = animal.name;
+}
+
 function timer() {
     setTimeout(finish, seconds * 1000);
   getElement("time").innerHTML = seconds;
   let countdown = setInterval(function () {
+    main ();
     seconds--;
     getElement("time").textContent = seconds;
     if (seconds <= 0) clearInterval(countdown);
