@@ -12,6 +12,60 @@ const animals = [
     {
         "img": "img/vagr.jpeg",
         "name": "վագր"
+    },
+    {
+        "img": "img/kenguru.jpg",
+        "name": "կենգուրու"
+
+    },
+    {
+        "img": "img/pix.webp",
+        "name": "փիղ"
+
+    },
+    {
+        "img": "img/zebr.avif",
+        "name": "զեբրա"
+
+    },
+    {
+        "img": "img/kria.jpeg",
+        "name": "կրիա"
+
+    // },
+    // {
+    //     "img": "img/kapik.jpeg",
+    //     "name": "կապիկ"
+
+    },
+    {
+        "img": "img/axves.jpg",
+        "name": "աղվես"
+
+    },
+    {
+        "img": "img/panda.jpeg",
+        "name": "պանդա"
+
+    },
+    {
+        "img": "img/vozni.jpg",
+        "name": "զեբրա"
+
+    },
+    {
+        "img": "img/kov.jpeg",
+        "name": "կրիա"
+
+     },
+    {
+        "img": "img/begemot.jpeg",
+        "name": "բեգեմոնտ"
+
+    },
+    {
+        "img": "img/panda.jpeg",
+        "name": "աղվես"
 
     }
 ]

@@ -13,9 +13,9 @@ function getRandomAnimals(){
 function main (){
   animal = getRandomAnimals();
   getElement("flag").src = animal.img;
-  getElement("option1label").src = animal.name;
-  getElement("option2label").src = animal.name;
-  getElement("option3label").src = animal.name;
+  getElement("option1label").innerHTML = animal.name;
+  getElement("option1input").value = animal.name;
+  getElement("option1input").checked = false;
 }
 
 function timer() {
@@ -55,3 +55,4 @@ function finish(){
 }
 let checkInterval = setInterval(check, 50);
 timer();
+main()
