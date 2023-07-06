@@ -48,23 +48,23 @@ const animals = [
         "name": "պանդա"
 
     },
-    {
-        "img": "img/vozni.jpg",
-        "name": "զեբրա"
+    // {
+    //     "img": "img/vozni.jpg",
+    //     "name": "զեբրա"
 
-    },
+    // },
     {
-        "img": "img/kov.jpeg",
-        "name": "կրիա"
+        "img": "img/kov.jpg",
+        "name": "կով"
 
      },
     {
-        "img": "img/begemot.jpeg",
+        "img": "img/begemont.jpg",
         "name": "բեգեմոնտ"
 
     },
     {
-        "img": "img/panda.jpeg",
+        "img": "img/axves.jpg",
         "name": "աղվես"
 
     }
